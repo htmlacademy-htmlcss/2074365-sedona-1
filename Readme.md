@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Дмитрий Орлов](https://up.htmlacademy.ru/htmlcss-individual/1/user/2074365).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Румянцев](https://htmlacademy.ru/profile/id1521451).
 
 ---
 
