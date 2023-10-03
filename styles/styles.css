@@ -138,6 +138,20 @@ header {
   line-height: 21px;
 }
 
+.real-city-picture {
+  width: 800px;
+  height: 385px;
+  background-image: url("../images/real-city.jpg");
+  background-repeat: no-repeat;
+}
+
+.advantages-bridge__picture {
+  width: 800px;
+  height: 385px;
+  background-image: url("../images/advantages-nature.jpg");
+  background-repeat: no-repeat;
+}
+
 .advantages-list {
   text-align: center;
   background-color: rgba(131, 179, 211, 0.12);
