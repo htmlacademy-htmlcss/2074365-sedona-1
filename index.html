@@ -17,14 +17,14 @@
         <img class="logo" src="images/logos/logo.svg" width="140" height="70"
              alt="Логотип отеля. Надпись, город Седона на фоне гор в рамке.">
       </a>
-      <ul class="navigation__list text-style-menu">
-        <li class="navigation__item">
+      <ul class="navigation__list">
+        <li class="navigation__item navigation__item_main">
           <a class="navigation__link navigation__link_current" href="#">Главная</a>
         </li>
-        <li class="navigation__item">
+        <li class="navigation__item navigation__item_description">
           <a class="navigation__link" href="#">О Седоне</a>
         </li>
-        <li class="navigation__item">
+        <li class="navigation__item navigation__item_hostel">
           <a class="navigation__link" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
@@ -33,14 +33,14 @@
       <h2 class="visually-hidden">Отель Седона. Меню справа.</h2>
       <ul class="navigation__list">
         <li class="navigation__item">
-          <a class="navigation__search-link" href="#">
+          <a class="navigation__link" href="#">
             <div class="navigation__search-icon">
               <span class="visually-hidden">Поиск.</span>
             </div>
           </a>
         </li>
         <li class="navigation__item">
-          <a class="navigation__favorites-link" href="#">
+          <a class="navigation__link" href="#">
             <div class="navigation__favorites-icon">
               <span class="visually-hidden">Избранное.</span>
             </div>
@@ -55,130 +55,131 @@
     </section>
   </nav>
 </header>
-<main>
-  <div class="main-container">
-    <section class="hero">
-      <h2 class="visually-hidden">Добро пожаловать в Седону.</h2>
-      <div class="hero__background-image">
-        <img class="hero__picture" src="images/welcome.svg" width="458" height="352" alt="Добро пожаловать в Седону.">
-        <div class="hero__divider"><span class="visually-hidden">Делитель фона</span></div>
-      </div>
-      <b class="hero__accent">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</b>
-      <p class="hero__description">Рассмотрим причины, по которым Седона круче, чем
-        Гранд-Каньон!</p>
-    </section>
-    <section class="advantages">
-      <h2 class="visually-hidden">Преимущества.</h2>
-      <section class="real-city advantages__text-style">
-        <h2 class="visually-hidden">Настоящий город.</h2>
-        <ul class="real-city__list">
-          <li class="real-city__item">
-            <div class="real-city__container">
-              <b class="real-city__accent advantages__accent-style">Настоящий городок</b>
-              <p class="real-city__description advantages__description-style">Седона — не аттракцион для туристов, там
-                течёт своя жизнь</p>
-            </div>
-          </li>
-          <li class="real-city__item">
-            <div class="real-city-picture">
-              <span class="visually-hidden">Отель на фоне сада и гор.</span>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="advantages-list">
-        <h2 class="visually-hidden">Наши преимущества.</h2>
-        <ul class="advantages-list__list">
-          <li class="advantages-list__item">
-            <div class="advantages-list__container">
-              <h3 class="advantages-list__subheading advantages__accent-style">Небольшая площадь</h3>
-              <p class="advantages-list__description advantages__description-style">Все достопримечательности находятся
-                очень близко</p>
-            </div>
-          </li>
-          <li class="advantages-list__item advantages-list__item_background">
-            <div class="advantages-list__container">
-              <h3 class="advantages-list__subheading advantages__accent-style">Красивая дорога</h3>
-              <p class="advantages-list__description advantages__description-style">Ехать в Седону из Лас-Вегаса совсем
-                не
-                скучно!</p>
-            </div>
-          </li>
-          <li class="advantages-list__item">
-            <div class="advantages-list__container">
-              <h3 class="advantages-list__subheading advantages__accent-style">Мало туристов</h3>
-              <p class="advantages-list__description advantages__description-style">Большинство едет в Гранд Каньон и
-                толпится там</p>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <section class="advantages-bridge advantages__text-style">
-        <h2 class="visually-hidden">Настоящий мост дьявола.</h2>
-        <ul class="advantages-bridge__list">
-          <li class="advantages-bridge__item">
-            <div class="advantages-bridge__picture">
-              <span class="visually-hidden">Горная природа Седоны с каньоном и деревьями.</span>
-            </div>
-          </li>
-          <li class="advantages-bridge__item">
-            <div class="advantages-bridge__container">
-              <b class="advantages-bridge__accent advantages__accent-style">Там есть мост дьявола</b>
-              <p class="advantages-bridge__description advantages__description-style">Да, по нему можно пройти! Если вы
-                осмелитесь, разумеется</p>
-            </div>
-          </li>
-        </ul>
-      </section>
-    </section>
-    <section class="services">
-      <h2 class="visually-hidden">Услуги.</h2>
-      <section class="services-move">
-        <h2 class="services-move__subheading main__accent-style">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-        <p class="services-move__advantages main__description-style">Опытный персонал и качественное обслуживание!</p>
-      </section>
-      <ul class="services__list">
-        <li class="services__item">
-          <h3 class="services__subheading">Жильё</h3>
-          <p class="services__description">Рекомендуем пожит в настоящем мотеле, всё как в кино!</p>
+<main class="main-container">
+  <section class="hero">
+    <h2 class="visually-hidden">Добро пожаловать в Седону.</h2>
+    <div class="hero__background-image">
+      <img class="hero__picture" src="images/welcome.svg" width="458" height="352" alt="Добро пожаловать в Седону.">
+      <div class="hero__divider"><span class="visually-hidden">Делитель фона</span></div>
+    </div>
+    <b class="hero__accent">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</b>
+    <p class="hero__description">Рассмотрим причины, по которым Седона круче, чем
+      Гранд-Каньон!</p>
+  </section>
+  <section class="advantages">
+    <h2 class="visually-hidden">Преимущества.</h2>
+    <section class="real-city advantages__text-style">
+      <h2 class="visually-hidden">Настоящий город.</h2>
+      <ul class="real-city__list">
+        <li class="real-city__item">
+          <div class="real-city__container">
+            <b class="real-city__accent advantages__accent-style">Настоящий городок</b>
+            <p class="real-city__description advantages__description-style">Седона — не аттракцион для туристов, там
+              течёт своя жизнь</p>
+          </div>
         </li>
-        <li class="services__item services__item_background">
-          <h3 class="services__subheading">Еда</h3>
-          <p class="services__description">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-        </li>
-        <li class="services__item">
-          <h3 class="services__subheading">Сувениры</h3>
-          <p class="services__description">Не только китайского, но и настоящего местного производства!</p>
+        <li class="real-city__item">
+          <div class="real-city-picture">
+            <span class="visually-hidden">Отель на фоне сада и гор.</span>
+          </div>
         </li>
       </ul>
     </section>
-    <section class="search-hotel">
-      <div class="search-hotel__container">
-        <h2 class="visually-hidden">Поиск гостиниц.</h2>
-        <b class="search-hotel__accent main__accent-style">Заинтересовались?</b>
-        <p class="search-hotel__description main__description-style">Укажите предполагаемые даты поездки,<br>и мы
-          покажем вам
-          лучшие предложения гостиниц в Седоне</p>
-        <button class="search-hotel__button text-style__button" type="button" name="search-hotel-button">Поиск гостиницы
-          в Седоне
+    <section class="advantages-list">
+      <h2 class="visually-hidden">Наши преимущества.</h2>
+      <ul class="advantages-list__list">
+        <li class="advantages-list__item">
+          <div class="advantages-list__container">
+            <h3 class="advantages-list__subheading advantages__accent-style">Небольшая площадь</h3>
+            <p class="advantages-list__description advantages__description-style">Все достопримечательности находятся
+              очень близко</p>
+          </div>
+        </li>
+        <li class="advantages-list__item advantages-list__item_background">
+          <div class="advantages-list__container">
+            <h3 class="advantages-list__subheading advantages__accent-style">Красивая дорога</h3>
+            <p class="advantages-list__description advantages__description-style">Ехать в Седону из Лас-Вегаса совсем
+              не
+              скучно!</p>
+          </div>
+        </li>
+        <li class="advantages-list__item">
+          <div class="advantages-list__container">
+            <h3 class="advantages-list__subheading advantages__accent-style">Мало туристов</h3>
+            <p class="advantages-list__description advantages__description-style">Большинство едет в Гранд Каньон и
+              толпится там</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="advantages-bridge advantages__text-style">
+      <h2 class="visually-hidden">Настоящий мост дьявола.</h2>
+      <ul class="advantages-bridge__list">
+        <li class="advantages-bridge__item">
+          <div class="advantages-bridge__picture">
+            <span class="visually-hidden">Горная природа Седоны с каньоном и деревьями.</span>
+          </div>
+        </li>
+        <li class="advantages-bridge__item">
+          <div class="advantages-bridge__container">
+            <b class="advantages-bridge__accent advantages__accent-style">Там есть<br>мост дьявола</b>
+            <p class="advantages-bridge__description advantages__description-style">Да, по нему можно пройти! Если вы
+              осмелитесь, разумеется</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </section>
+  <section class="services">
+    <h2 class="visually-hidden">Услуги.</h2>
+    <section class="services-move">
+      <h2 class="services-move__subheading main__accent-style">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+      <p class="services-move__advantages main__description-style">Опытный персонал и качественное обслуживание!</p>
+    </section>
+    <ul class="services__list">
+      <li class="services__item">
+        <div class="services__hostel-icon"><span class="visually-hidden">Жилье.</span></div>
+        <h3 class="services__subheading">Жильё</h3>
+        <p class="services__description">Рекомендуем пожить<br>в настоящем мотеле,<br>всё как в кино!</p>
+      </li>
+      <li class="services__item services__item_background">
+        <div class="services__food-icon"><span class="visually-hidden">Еда.</span></div>
+        <h3 class="services__subheading">Еда</h3>
+        <p class="services__description">Всегда заказывайте<br>топовый фирменный бургер,<br>вы не разочаруетесь!</p>
+      </li>
+      <li class="services__item">
+        <div class="services__souvenir-icon"><span class="visually-hidden">Сувениры.</span></div>
+        <h3 class="services__subheading">Сувениры</h3>
+        <p class="services__description">Не только китайского,<br>но и настоящего местного<br>производства!</p>
+      </li>
+    </ul>
+  </section>
+  <section class="search-hotel">
+    <div class="search-hotel__container">
+      <h2 class="visually-hidden">Поиск гостиниц.</h2>
+      <b class="search-hotel__accent main__accent-style">Заинтересовались?</b>
+      <p class="search-hotel__description main__description-style">Укажите предполагаемые даты поездки,<br>и мы
+        покажем вам
+        лучшие предложения гостиниц в Седоне</p>
+      <button class="search-hotel__button text-style__button" type="button" name="search-hotel-button">Поиск гостиницы
+        в Седоне
+      </button>
+    </div>
+  </section>
+  <section class="subscribe">
+    <div class="subscribe__container">
+      <h2 class="subscribe__subheading main__accent-style">Подпишитесь на рассылку</h2>
+      <p class="subscribe__description main__description-style">Только полезная информация и никакого спама, честное
+        бойскаутское!</p>
+      <form class="subscribe__email" action="https://echo.htmlacademy.ru/" method="post">
+        <label class="subscribe__email_label">
+          <input class="subscribe__email_input" type="email" name="email" placeholder="Ваш e-mail">
+        </label>
+        <button class="subscribe__button text-style__button" type="submit" name="subscribe-email-button">Подписаться
         </button>
-      </div>
-    </section>
-    <section class="subscribe">
-      <div class="subscribe__container">
-        <h2 class="subscribe__subheading main__accent-style">Подпишитесь на рассылку</h2>
-        <p class="subscribe__description main__description-style">Только полезная информация и никакого спама, честное
-          бойскаутское!</p>
-        <form class="subscribe__email" action="https://echo.htmlacademy.ru/" method="post">
-          <label class="subscribe__email_label">
-            <input class="subscribe__email_input" type="email" name="email" placeholder="Ваш e-mail">
-          </label>
-          <button class="subscribe__button text-style__button" type="submit" name="subscribe-email-button">Подписаться
-          </button>
-        </form>
-      </div>
-    </section>
-  </div>
+      </form>
+    </div>
+  </section>
 </main>
 <footer>
   <h2 class="visually-hidden">Контакты.</h2>
@@ -214,9 +215,7 @@
     </section>
     <section class="contact-phone">
       <h2 class="visually-hidden">Номер телефона.</h2>
-      <a class="contact-phone__link" href="tel:+78128121212">
-        <div class="contact-phone_number">+7(812)812-12-12</div>
-      </a>
+      <a class="contact-phone__link" href="tel:+78128121212">+7 (812) 812-12-12</a>
     </section>
     <section class="academy">
       <h2 class="visually-hidden">html Academy.</h2>
