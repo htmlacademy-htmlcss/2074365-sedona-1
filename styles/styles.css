@@ -941,6 +941,10 @@ footer {
   border: 1px solid #E6E6E6;
 }
 
+.catalog__images_fit {
+  object-fit: contain;
+}
+
 .catalog__name-hotel {
   width: 300px;
   font-size: 24px;
