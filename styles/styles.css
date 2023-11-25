@@ -1190,7 +1190,7 @@ footer {
 }
 
 .filter__cost_input:focus {
-  outline: 3px solid #83B3D3;
+  outline: 2px solid #83B3D3;
 }
 
 .filter__cost_range-scale {
@@ -1370,8 +1370,16 @@ footer {
   line-height: 21px;
 }
 
-.catalog__sorting_select:hover {
+.catalog__sorting select:hover {
   border: 2px solid #68A2CA;
+}
+
+.catalog__sorting_label:focus {
+  border: 2px solid red;
+}
+
+.catalog__sorting_select:focus {
+  border: 2px solid red;
 }
 
 .catalog__sorting_select:disabled {
