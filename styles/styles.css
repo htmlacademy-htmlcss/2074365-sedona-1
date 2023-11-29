@@ -692,8 +692,9 @@ li:nth-child(2) .services__description {
 
 .subscribe__description {
   display: flex;
-  width: 475px;
+  width: 1200px;
   text-align: center;
+  justify-content: center;
   font-size: 22px;
   line-height: 26px;
   margin: 20px 0 55px 2px;
@@ -701,8 +702,15 @@ li:nth-child(2) .services__description {
 
 .subscribe__email {
   display: flex;
+  width: 1200px;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.subscribe__email_label {
+  display: flex;
+  width: 452px;
 }
 
 .subscribe__email_input {
@@ -755,7 +763,10 @@ li:nth-child(2) .services__description {
 }
 
 .subscribe__button:focus {
+  position: relative;
+  outline: 2px solid #000000;
   background-color: #68a2ca;
+  z-index: 1;
 }
 
 .subscribe__button:active {
