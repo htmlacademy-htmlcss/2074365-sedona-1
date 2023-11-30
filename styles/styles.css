@@ -50,7 +50,7 @@ body {
   box-shadow: 0 0 15px 0 #00000033;
 }
 
-header {
+.header {
   min-width: 1200px;
   margin-bottom: -6px;
   font-weight: 700;
@@ -319,7 +319,7 @@ header {
 
 .hero__accent {
   display: flex;
-  width: 1200px;
+  width: 620px;
   margin: 69px auto 0;
   text-align: center;
   font-size: 30px;
@@ -332,8 +332,8 @@ header {
 
 .hero__description {
   display: flex;
-  width: 1200px;
-  margin: 0;
+  width: 651px;
+  margin: 0 auto;
   padding-top: 25px;
   padding-bottom: 69px;
   font-size: 22px;
@@ -477,10 +477,10 @@ header {
 .services-move__subheading {
   display: flex;
   position: relative;
-  width: 1200px;
+  width: 505px;
   font-size: 30px;
   line-height: 36px;
-  margin: 0;
+  margin: 0 auto;
   left: 1px;
   justify-content: center;
   text-align: center;
@@ -497,7 +497,8 @@ header {
 
 .services-move__advantages {
   display: flex;
-  margin: 20px 0 0;
+  width: 490px;
+  margin: 20px auto 0;
   text-align: center;
   justify-content: center;
   font-size: 22px;
@@ -681,8 +682,8 @@ li:nth-child(2) .services__description {
 
 .subscribe__subheading {
   display: flex;
-  width: 1200px;
-  margin: 0;
+  width: 404px;
+  margin: 0 auto;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -692,7 +693,7 @@ li:nth-child(2) .services__description {
 
 .subscribe__description {
   display: flex;
-  width: 1200px;
+  width: 475px;
   text-align: center;
   justify-content: center;
   font-size: 22px;
@@ -780,7 +781,7 @@ li:nth-child(2) .services__description {
   background-color: #e5e5e5;
 }
 
-footer {
+.footer {
   display: flex;
   padding: 40px 70px 30px 70px;
   color: #000000;
