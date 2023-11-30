@@ -702,14 +702,15 @@ li:nth-child(2) .services__description {
 
 .subscribe__email {
   display: flex;
-  width: 1200px;
-  justify-content: center;
+  width: 684px;
+  justify-content: end;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: start;
 }
 
 .subscribe__email_label {
   display: flex;
+  flex-wrap: wrap;
   width: 452px;
 }
 
@@ -751,7 +752,7 @@ li:nth-child(2) .services__description {
 }
 
 .subscribe__button {
-  max-width: 232px;
+  width: 232px;
   padding: 8px 50px;
   background-color: #82b3d3;
   border-radius: 0 4px 4px 0;
