@@ -2305,10 +2305,10 @@ body {
   background-color: #e5e5e5;
 }
 
-.modal__search_button-style:disabled .modal__search_button-text {
-  opacity: 1;
-}
-
 .modal {
   display: none;
+}
+
+.modal__search_button-style:disabled .modal__search_button-text {
+  opacity: 1;
 }
