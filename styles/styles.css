@@ -2144,9 +2144,6 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
-}
-
-.person__input[type="number"] {
   -moz-appearance: textfield;
   -webkit-appearance: textfield;
   appearance: textfield;
@@ -2312,6 +2309,6 @@ body {
   opacity: 1;
 }
 
-/*.modal {*/
-/*  display: none;*/
-/*}*/
+.modal {
+  display: none;
+}
