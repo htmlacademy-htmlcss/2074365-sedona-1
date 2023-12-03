@@ -83,7 +83,7 @@ body {
 
 .navigation__left-menu {
   display: flex;
-  width: 509px;
+  width: 635px;
   align-items: flex-start;
 }
 
@@ -139,7 +139,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: 268px;
-  margin-left: 283px;
+  margin-left: auto;
   margin-top: 10px;
   align-items: baseline;
 }
@@ -152,11 +152,7 @@ body {
 }
 
 .navigation__right-menu .navigation__item {
-  display: flex;
   max-width: 44px;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
   margin-bottom: 6px;
 }
 
@@ -191,8 +187,8 @@ body {
 
 .navigation__link:active,
 .navigation__link:active .navigation__icon {
-  color: #594e49ff;
-  fill: #594e49ff;
+  color: #594e49;
+  fill: #594e49;
 }
 
 .navigation__icon_count {
@@ -2305,10 +2301,10 @@ body {
   background-color: #e5e5e5;
 }
 
-.modal {
-  display: none;
-}
-
 .modal__search_button-style:disabled .modal__search_button-text {
   opacity: 1;
+}
+
+.modal {
+  display: none;
 }
