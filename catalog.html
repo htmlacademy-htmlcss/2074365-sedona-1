@@ -149,14 +149,12 @@
                 <li class="filter__cost_item">
                   <label class="filter__cost_label filter__cost_label-from">
                     <input class="filter__cost_input filter__cost_input-from" type="number" name="cost-from" value="0">
-                    <span class="filter__cost_text filter__cost_text-style">от</span>
                     <span class="visually-hidden">Указать минимальную цену.</span>
                   </label>
                 </li>
                 <li class="filter__cost_item">
                   <label class="filter__cost_label filter__cost_label-before">
                     <input class="filter__cost_input filter__cost_input-before" type="number" name="cost-to" value="9000">
-                    <span class="filter__cost_text filter__cost_text-style">до</span>
                     <span class="visually-hidden">Указать максимальную цену.</span>
                   </label>
                 </li>
@@ -200,9 +198,7 @@
         <h2 class="visually-hidden">Сортировка результата.</h2>
         <label class="catalog__sorting_label">
           <select class="catalog__sorting_select catalog__sorting_select-style">
-            <option class="catalog__sorting_option" value="top-low-price" id="cheaply" selected>
-              Сначала дешевые
-            </option>
+            <option class="catalog__sorting_option" value="top-low-price" id="cheaply" selected>Сначала дешевые</option>
           </select>
           <span class="visually-hidden">Выбрать тип сортировки.</span>
         </label>
@@ -404,7 +400,7 @@
       <p class="subscribe__description main__description-style">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
       <form class="subscribe__email" action="https://echo.htmlacademy.ru/" method="post">
         <label class="subscribe__email_label">
-          <input class="subscribe__email_input subscribe__email_input-style" type="email" name="email" placeholder="Ваш e-mail">
+          <input class="subscribe__email_input subscribe__email_input-style" type="email" name="email" placeholder="Ваш e-mail" minlength="3" required>
         </label>
         <button class="subscribe__button text-style__button" type="submit" name="subscribe-email-button">Подписаться</button>
       </form>
